@@ -76,6 +76,3 @@ def get_dir_size(dir_path):
     else:
       total_size += os.path.getsize(file_path)
   return total_size
-
-
-
